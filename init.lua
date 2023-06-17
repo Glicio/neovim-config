@@ -42,7 +42,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 -- things I use
 local builtin = require('telescope.builtin')
-
+-- asdasd
 -- awesome remaps
 vim.keymap.set("", "<F3>", vim.cmd.Format)
 vim.keymap.set("", "<leader>pv", vim.cmd.Ex)
