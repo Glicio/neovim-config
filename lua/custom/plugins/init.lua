@@ -13,6 +13,7 @@ vim.keymap.set("n", "<C-n>", function() ui.nav_file(3) end)
 vim.keymap.set("n", "<C-s>", function() ui.nav_file(4) end)
 vim.keymap.set("n", "<leader>e", function() dg.open_float({ winblend = 0, border = "rounded" }) end)
 return {
+"norcalli/nvim-colorizer.lua",
 "mattn/emmet-vim",
 "github/copilot.vim",
 "folke/tokyonight.nvim",
